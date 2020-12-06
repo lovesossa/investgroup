@@ -43,8 +43,6 @@
   font-weight: 700;
   outline: none;
   &:hover {
-    // color: #e22c2c;
-    // background-color: #fff;
     transform: scale(1.05);
   }
 }
@@ -52,10 +50,8 @@
 .choose-btn {
   display: flex;
   align-items: center;
-
   background-color: transparent;
   color: #e22c2c;
-
   font-size: 14px;
   line-height: 25px;
   font-weight: 700;
