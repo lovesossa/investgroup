@@ -1,6 +1,9 @@
 {
   "name": "react-pizza",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
