@@ -11,7 +11,7 @@
     position: relative;
     img {
       object-fit: cover;
-      position: fixed;
+      position: absolute;
       width: 100%;
       height: 100vh;
       filter: contrast(0.8);
@@ -26,6 +26,9 @@
     &-second {
       height: 100vh;
       width: 100%;
+      img {
+        top: 0 !important;
+      }
     }
     &-third {
       width: 100vw !important;
@@ -56,7 +59,7 @@
           display: none;
         }
         &-main {
-          width: 100vw !important;
+          width: 100% !important;
         }
       }
       .slide-content__link {
@@ -378,15 +381,11 @@
 .anim {
   animation-name: anim;
   animation-duration: 3s;
-  transform-style: flat;
-  perspective: 500px;
 }
 
 .active {
   animation-name: active;
   animation-duration: 3s;
-  transform-style: flat;
-  perspective: 500px;
   .slide-content {
     animation-name: activecontent;
     animation-duration: 3.2s;

@@ -118,7 +118,6 @@ function Home(zoom) {
                             <h1 className="slide-content__title">INVESTGROUP</h1>
                             <p className="slide-content__text">Девелопмент, консалтинг, управление комерческой недвижимостью. Опыт профессионалов в решении ваших задач.</p>
                             <Link to="/company" className="slide-content__link">О компании</Link>
-                            <div className="slide-content__wheel"></div>
                         </div>
                     </div>
                     <div className="slider-item home-page__slide home-page__slide-second">
@@ -127,7 +126,6 @@ function Home(zoom) {
                             <h1 className="slide-content__title">PROJECT</h1>
                             <p className="slide-content__text">Разрабатываем и реализуем собственные проекты в сфере коммерческой недвижимости. Поддерживаем высокую инвестиционную привлекательность объектов и привлекаем дополнительное финансирование.</p>
                             <Link to="/projects/craft" className="slide-content__link">CRAFT</Link>
-                            <div className="slide-content__wheel"></div>
                         </div>
                     </div>
                     <div className="slider-item home-page__slide home-page__slide-third">
@@ -140,7 +138,6 @@ function Home(zoom) {
                             <a className="slide-content__link slide-content__link-one" href="/services">Инвестиционные услуги</a>
                             <a className="slide-content__link slide-content__link-two" href="/management">Управление недвижимостью</a>
                             <a className="slide-content__link slide-content__link-three" href="/agency">Услуги представительства</a>
-                            <div className="slide-content__wheel"></div>
                         </div>
                     </div>
                     <div className="slider-item home-page__slide home-page__slide-fourth">
@@ -156,7 +153,6 @@ function Home(zoom) {
                         <div className="home-page__slide-content slide-content">
                             <h1 className="slide-content__title">PROPERTY</h1>
                             <p className="slide-content__text">Наши активы насчитывают более 52 тысяч квадратных метров коммерческой недвижимости, управляя которыми мы накопили значительный опыт в данной отрасли</p>
-                            <div className="slide-content__wheel"></div>
                         </div>
                     </div>
                     <div className="slider-item home-page__slide home-page__slide-fiveth">
@@ -165,7 +161,6 @@ function Home(zoom) {
                             <h1 className="slide-content__title">PROFIT</h1>
                             <p className="slide-content__text">Разрабатываем и реализуем собственные проекты в области коммерческой недвижимости — от стратегии до бюджетирования и девелопмента. Поддерживаем высокую инвестиционную привлекательность этих проектов и привлекаем дополнительное финансирование</p>
                             <a className="slide-content__link" href="/projects">start</a>
-                            <div className="slide-content__wheel"></div>
                         </div>
                     </div>
                 </div>    
