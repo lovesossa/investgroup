@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './index'
 import { arrowdown } from './img'
+import { Link } from 'react-router-dom';
 
 function Management() {
     function li1 () {
@@ -68,18 +69,18 @@ function Management() {
                     <p className="company-content__text container">Наши объекты являются наглядным подтверждением того, что мы идем в правильном направлении и умеем использовать имеющиеся ресурсы максимально результативно и плодотворно. Все объекты в своей конкурентной среде выглядит выигрышно и органично вписывается в конъюнктуру каждого конкретного рынка</p>
                     <div className="company-content__inner services-inner">
                         <div className="company-content__inner-wrap">
-                            <a href="/projects/resource" className="company-content__inner-box">
+                            <Link to="/projects/resource" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Cкладской комплекс</div>
                                 <div className="company-content__inner-title">РЕСУРС</div>
-                            </a>
-                            <a href="/projects/dom" className="company-content__inner-box">
+                            </Link>
+                            <Link to="/projects/dom" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Торговый центр</div>
                                 <div className="company-content__inner-title">DOM</div>
-                            </a>
-                            <a href="/projects/energy" className="company-content__inner-box">
+                            </Link>
+                            <Link to="/projects/energy" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Производственный комплекс</div>
                                 <div className="company-content__inner-title">ЭНЕРГО­РЕСУРС</div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>

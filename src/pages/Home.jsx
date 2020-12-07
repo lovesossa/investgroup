@@ -135,21 +135,15 @@ function Home(zoom) {
                         <div className="home-page__slide-content slide-content">
                             <h1 className="slide-content__title">PROFESSIONALISM</h1>
                             <p className="slide-content__text">Более 15-ти лет успешного управления коммерческой, складской и производственной недвижимостью. Общая площадь активов под управлением - более 52 тыс. м.кв. Сильные бренды, комфортные условия для арендаторов - лидеров рынка, надежные партнеры, широкие возможности развития. </p>
-                            <a className="slide-content__link slide-content__link-one" href="/services">Инвестиционные услуги</a>
-                            <a className="slide-content__link slide-content__link-two" href="/management">Управление недвижимостью</a>
-                            <a className="slide-content__link slide-content__link-three" href="/agency">Услуги представительства</a>
+                            <Link to="/services" className="slide-content__link slide-content__link-one">Инвестиционные услуги</Link>
+                            <Link to="/management" className="slide-content__link slide-content__link-two">Управление недвижимостью</Link>
+                            <Link to="/agency" className="slide-content__link slide-content__link-three">Услуги представительства</Link>
                         </div>
                     </div>
                     <div className="slider-item home-page__slide home-page__slide-fourth">
-                        <a className="home-page__slide-fourth-left" href="/projects/resource">
-                            <img src={slide4} alt=""/>
-                        </a>
-                        <a className="home-page__slide-fourth-center" href="/projects/dom">
-                            <img src={slide5} alt=""/>
-                        </a>
-                        <a className="home-page__slide-fourth-right" href="/projects/energy">
-                            <img src={slide6} alt=""/>
-                        </a>
+                        <Link to="/projects/resource" className="home-page__slide-fourth-left"><img src={slide4} alt=""/></Link>
+                        <Link to="/projects/dom" className="home-page__slide-fourth-center"><img src={slide5} alt=""/></Link>
+                        <Link to="/projects/energy" className="home-page__slide-fourth-right"><img src={slide6} alt=""/></Link>
                         <div className="home-page__slide-content slide-content">
                             <h1 className="slide-content__title">PROPERTY</h1>
                             <p className="slide-content__text">Наши активы насчитывают более 52 тысяч квадратных метров коммерческой недвижимости, управляя которыми мы накопили значительный опыт в данной отрасли</p>
@@ -160,7 +154,7 @@ function Home(zoom) {
                         <div className="home-page__slide-content slide-content">
                             <h1 className="slide-content__title">PROFIT</h1>
                             <p className="slide-content__text">Разрабатываем и реализуем собственные проекты в области коммерческой недвижимости — от стратегии до бюджетирования и девелопмента. Поддерживаем высокую инвестиционную привлекательность этих проектов и привлекаем дополнительное финансирование</p>
-                            <a className="slide-content__link" href="/projects">start</a>
+                            <Link to="/projects" className="slide-content__link">start</Link>
                         </div>
                     </div>
                 </div>    

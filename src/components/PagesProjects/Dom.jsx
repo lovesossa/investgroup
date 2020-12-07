@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProjectsNav, Header } from '../index'
+import { Link } from 'react-router-dom';
 
 
 function Dom() {
@@ -91,14 +92,14 @@ function Dom() {
                 </section>
                 <section className="project-section">
                     <div className="project-section__box">
-                        <a href="/projects/resource" className="project-section__box-item">
+                        <Link to="/projects/resource" className="project-section__box-item">
                             <div className="project-section__box-item-span">Cкладской комплекс</div>
                             <div className="project-section__box-item-title">РЕСУРС</div>
-                        </a>
-                        <a href="/projects/energy" className="project-section__box-item">
+                        </Link>
+                        <Link to="/projects/energy" className="project-section__box-item">
                             <div className="project-section__box-item-span">Производственный комплекс</div>
                             <div className="project-section__box-item-title">ЭНЕРГО­РЕСУРС</div>
-                        </a>
+                        </Link>
                     </div>
                 </section>
             </div>

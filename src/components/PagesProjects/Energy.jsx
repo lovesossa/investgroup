@@ -1,6 +1,7 @@
 import React from 'react'
 import { ProjectsNav, Header } from '../index'
 import { projectslide13, projectslide14, projectslide15 } from '../img'
+import { Link } from 'react-router-dom';
 
 import SwiperCore, { Navigation, EffectCube } from 'swiper';
 
@@ -77,14 +78,14 @@ function Energy() {
                 </section>
                 <section className="project-section">
                     <div className="project-section__box">
-                        <a href="/projects/resource" className="project-section__box-item">
+                        <Link to="/projects/resource" className="project-section__box-item">
                             <div className="project-section__box-item-span">Складской комплекс</div>
                             <div className="project-section__box-item-title">РЕСУРС</div>
-                        </a>
-                        <a href="/projects/dom" className="project-section__box-item">
+                        </Link>
+                        <Link to="/projects/dom" className="project-section__box-item">
                             <div className="project-section__box-item-span">Торговый центр</div>
                             <div className="project-section__box-item-title">DOM</div>
-                        </a>
+                        </Link>
                     </div>
                 </section>
             </div>

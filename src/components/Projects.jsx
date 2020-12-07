@@ -19,7 +19,7 @@ function Projects() {
                 <section className="company-content__section">
                     <h5 className="company-content__title container">ИНВЕСТИЦИОННЫЕ ПРОЕКТЫ</h5>
                     <p className="company-content__text container">Разрабатываем и реализуем собственные проекты в области коммерческой недвижимости — от стратегии до бюджетирования и девелопмента. Поддерживаем высокую инвестиционную привлекательность этих проектов и привлекаем дополнительное финансирование</p>
-                    <a href="/projects/craft">
+                    <Link to="/projects/craft">
                         <div className="company-content__inner services-inner">
                             <div className="company-content__inner-wrap container">
                                 <div className="company-content__inner-box">
@@ -27,8 +27,8 @@ function Projects() {
                                     <div className="company-content__inner-title">CRAFT</div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </div>                       
+                    </Link>
                 </section>
 
                 <section className="company-content__section management">
@@ -36,18 +36,18 @@ function Projects() {
                     <p className="company-content__text container">Наши активы насчитывают более 52 тысяч квадратных метров коммерческой недвижимости, управляя которыми мы накопили значительный опыт в данной отрасли</p>
                     <div className="company-content__inner services-inner">
                         <div className="company-content__inner-wrap">
-                            <a href="/projects/resource" className="company-content__inner-box">
+                            <Link to="/projects/resource" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Cкладской комплекс</div>
                                 <div className="company-content__inner-title">РЕСУРС</div>
-                            </a>
-                            <a href="/projects/dom" className="company-content__inner-box">
+                            </Link>
+                            <Link to="/projects/dom" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Торговый центр</div>
                                 <div className="company-content__inner-title">DOM</div>
-                            </a>
-                            <a href="/projects/energy" className="company-content__inner-box">
+                            </Link>
+                            <Link to="/projects/energy" className="company-content__inner-box">
                                 <div className="company-content__inner-info">Производственный комплекс</div>
                                 <div className="company-content__inner-title">ЭНЕРГО­РЕСУРС</div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>
