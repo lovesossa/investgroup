@@ -772,6 +772,15 @@
   }
   .contacts-maps {
     margin-bottom: 485px;
+    position: relative;
+    @media (max-width: $md1+px) {
+      position: static;
+      margin-bottom: 510px;
+    }
+    @media (max-width: $md3+px) {
+      position: static;
+      margin-bottom: 581px;
+    }
     .company-content__title {
       margin-bottom: 1px;
     }
